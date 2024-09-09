@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    min-height: 100vh;
+    background-color:#C4DAD2;
+}
+
+.box1
+{max-height: 1000px;
+    max-width:  1000px;;
+    width: 100%;
+    background-color: 6A9C89;
+    position:relative;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+    
+}
+.my_intro{
+
+align-items: center;
+padding: 20px;
+font-size: 15px;
+color: #cdddd7;
+
+
+}
+.About_me
+{
+    border: 1px solid #6A9C89;
+    margin-top: 50px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    color: #C4DAD2;
+    
+}
+.me{
+    
+    text-align: center;
+}
+.About_me .me 
+{color: #6A9C89;
+}
+.left_box
+{
+
+background-color:#16423C;
+padding: 40px;
+;
+}
+.contact_me{
+    padding: 10px;
+    margin-top: 30%;
+}
+.contact_me ul li .text
+{
+    color: #6A9C89;
+    
+    font-weight: 400;
+
+
+}
+.contact_me ul li .icon
+{
+    color:rgb(181, 224, 199);
+    font-size: 19px;
+    width:30px;display: inline-block;
+
+
+
+}
+
+
+.right_box{
+    position: relative;
+    padding: 40px;
+    background-color: #6A9C89;
+}
+.edu_detail{
+    border: 1px solid #16423C;
+    padding: 10px;
+}
+
+.detail_exp{
+    border: 1px solid #16423C;
+    padding: 10px;
+
+}
+.detail .detail_exp  .text{
+    font-size:18px ;
+}
+.SKILL .box{
+    position: relative;
+    width: 100%;
+    position:grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: centre;
+    align-items: centre;
+
+} 
+.SKILL .box H4{
+    font-weight: 500;
+    
+
+}
+.SKILL .box  .percent{
+    WIDTH:100%;
+    height: 10px;
+    background: white;
+    POSITION:relative;
+
+}
+.SKILL .box  .percent div{
+background-color:#16423C;
+
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+  
